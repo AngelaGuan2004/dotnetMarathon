@@ -1,0 +1,38 @@
+#LeaderBoard {
+  height: 72vh;
+  margin: 125px 0 20vh;
+}
+
+#LeaderBoard .el-button {
+  font-size: 16px;
+  background-color: #c63939;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: white;
+  border: none !important;
+  /* 去掉按钮边框 */
+}
+
+#LeaderBoard .Input {
+  width: 75%;
+}
+
+#LeaderBoard .el-button:hover {
+  background-color: #a62828 !important;
+  /* 悬停时的深红色背景 */
+}
+
+.LeaderBoardContent {
+  max-width: 1200px;
+  height: 100%;
+  margin: 25px auto;
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}

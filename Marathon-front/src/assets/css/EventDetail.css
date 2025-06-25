@@ -1,0 +1,125 @@
+#EventDetail {
+  height: 62vh;
+  margin-top: 125px;
+  margin-bottom: 15%;
+}
+
+.EventDetailContainer {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.EventDetailTitle {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 4%;
+  padding-left: 6%;
+}
+
+#EventDetail .el-statistic .head {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+#EventDetail .el-statistic .con {
+  display: inline-block;
+}
+
+#EventDetail .el-statistic .con .number {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.EventDetailStatistic {
+  display: flex;
+  padding-top: 25px;
+  margin-right: 5%;
+}
+
+.EventDetailContainerInfo {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+
+.EventDetailContainerInfoItem {
+  display: flex;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.EventDetailContainerInfoOne .EventDetailContainerInfoItem span span {
+  display: inline-block;
+  width: 160px;
+  font-weight: bold;
+}
+
+.EventDetailContainerInfoTwo .EventDetailContainerInfoItem span span {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.EventDetailContainerIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.EventDetailContainerInfoItem a {
+  color: rgb(88, 165, 255);
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.EventDetailLink:hover {
+  color: red;
+}
+
+.EventDetailContainerButton {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.EventDetailContainerInfoOne {
+  width: 70%;
+}
+
+.EventDetailContainerInfoTwo {
+  width: 48%;
+}
+
+#EventDetail .el-button {
+  font-size: 22px;
+  background-color: #c63939;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: white;
+  border: none !important;
+  /* 去掉按钮边框 */
+}
+
+#EventDetail .el-button--primary {
+  background-color: #c63939 !important;
+}
+
+#EventDetail .el-button--success {
+  background-color: #c63939 !important;
+}
+
+#EventDetail .el-button:hover {
+  background-color: #a62828 !important;
+  /* 悬停时的深红色背景 */
+}

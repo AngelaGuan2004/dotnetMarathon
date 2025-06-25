@@ -1,0 +1,94 @@
+#MedicalPointManagement,
+#SupplyPointDeleteManagement,
+#ShuttleManagement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 105vh;
+  height: 65vh;
+  margin-right: 50px;
+  margin-bottom: 75px;
+  font-size: 15px;
+}
+
+#MedicalPointManagement .ManagementContainer {
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 30px 45px;
+}
+
+#ShuttleManagement .ManagementContainer,
+#SupplyPointDeleteManagement .ManagementContainer {
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 30px 45px;
+}
+
+#MedicalPointManagement .button-group .el-button,
+#SupplyPointDeleteManagement .button-group .el-button,
+#ShuttleManagement .button-group .el-button {
+  font-size: 14px !important;
+  background-color: #c63939;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: white;
+  border: none !important;
+}
+
+#MedicalPointManagement .button-group .el-button:hover,
+#SupplyPointDeleteManagement .button-group .el-button:hover,
+#ShuttleManagement .button-group .el-button:hover {
+  background-color: #a62828 !important;
+  /* 悬停时的深红色背景 */
+}
+
+#MedicalPointManagement .DeleteButton .el-button,
+#SupplyPointDeleteManagement .DeleteButton .el-button,
+#ShuttleManagement .DeleteButton .el-button {
+  font-size: 14px !important;
+  font-weight: bold;
+  background-color: transparent;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: rgb(183, 30, 35);
+  border: none !important;
+}
+
+#MedicalPointManagement .button-group,
+#SupplyPointDeleteManagement .button-group,
+#ShuttleManagement .button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.Dialog .el-form-item__label {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.Dialog .el-input {
+  width: 75%;
+}
+
+.Dialog .el-dialog__body {
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
+
+.Dialog .el-button--primary {
+  background-color: #c63939;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: white;
+  border: none !important;
+}
+
+.Dialog .el-button--primary:hover {
+  background-color: #a62828 !important;
+  /* 悬停时的深红色背景 */
+}

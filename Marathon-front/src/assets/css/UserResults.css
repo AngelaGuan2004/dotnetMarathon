@@ -1,0 +1,72 @@
+#UserResults {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 110vh;
+  height: 70vh;
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-top: -25px;
+}
+
+/* 下部分的右边 */
+.UserResultsContent {
+  background-color: white;
+  margin-top: 30px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.UserResultsSearch {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  width: 40%;
+  /* 将搜索框放置在最右边 */
+}
+
+#UserResults .el-input {
+  width: 250px;
+}
+
+#UserResults .el-select .el-input {
+  width: 150px;
+}
+
+#UserResults .el-button--primary {
+  background-color: #c81623;
+  /* 酒红色 */
+}
+
+.UserResultsRaceType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10%;
+  margin-bottom: 20px;
+  /* 位置在导航栏下面 */
+  height: 30px;
+}
+
+.UserResultsBestGrade {
+  margin-left: 20px;
+  background-color: #ffffff;
+  color: rgb(12, 5, 5);
+  padding: 5px 8px 2px 8px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#UserResults .Pagination {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  z-index: 1;
+  font-size: 24px;
+  height: 50px;
+}

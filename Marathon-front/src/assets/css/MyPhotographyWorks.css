@@ -1,0 +1,151 @@
+#MyPhotographyWorks {
+  height: 100%;
+  margin-top: -25px;
+  margin-bottom: 50px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  background-color: #ffebeb;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-button {
+  width: 100%;
+  background-color: #ffebeb;
+  color: #565656;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.sidebar-button:hover {
+  background-color: #ffd7d7;
+  font-weight: bold;
+}
+
+.MyPhotographyWorksContent {
+  flex: 1;
+  margin: 25px 5%;
+  width: 100%;
+}
+
+.titlebar {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.back-button {
+  background-color: white;
+  color: #969696;
+  font-size: 50px;
+  height: 60px;
+  padding-top: 0px;
+  margin-left: 10px;
+}
+
+.back-button:hover {
+  background-color: #ffd7d7;
+  font-weight: bold;
+}
+
+.recent-works {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 340px;
+  padding: 20px 30px;
+  padding-right: 0;
+  margin-top: 10px;
+}
+
+.all-works {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 900px;
+  padding: 20px 30px;
+  padding-right: 0;
+  margin-top: 30px;
+}
+
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 200px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-frame {
+  width: 200px;
+  height: 370px;
+  position: relative;
+  overflow: hidden;
+  border: 2px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+#MyPhotographyWorks .photo-frame .el-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 8px;
+  color: red;
+  border: 0;
+
+}
+
+#MyPhotographyWorks .photo {
+  width: 100%;
+  height: 73%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-box {
+  margin-top: 6px;
+  width: 100%;
+  height: 25%;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.photo-manage-button {
+  width: 20px;
+  height: 25px;
+  margin-top: 6px;
+  margin-left: 8px;
+  background-color: #409effc7;
+  font-size: 13px;
+  text-align: center;
+}

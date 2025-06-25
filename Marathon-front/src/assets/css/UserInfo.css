@@ -1,0 +1,121 @@
+#UserInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 110vh;
+  height: 60vh;
+  margin-bottom: 75px;
+}
+
+.UserInfo {
+  width: 500px;
+  height: 530px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  left: -10%;
+  position: relative;
+}
+
+.UserInfoImg {
+  width: 450px;
+  height: 100%;
+  left: -200px;
+  margin-top: 10vh;
+}
+
+.UserInfoImg img {
+  width: 100%;
+}
+
+.UserInfoUpper {
+  width: 100%;
+  height: 60px;
+}
+
+.UserInfoTitle {
+  display: inline-block;
+  line-height: 65px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.relative-button {
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(168, 27, 31);
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.relative-button:hover {
+  background-color: transparent;
+}
+
+.UserInfoText {
+  width: 100%;
+  height: 450px;
+  margin-right: 10%;
+}
+
+.line {
+  border: none;
+  height: 2px;
+  background-color: #f4f4f6;
+}
+
+
+.UserInfoTextTitle {
+  width: 100px;
+  color: black;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.UserInfoTextContent {
+  color: black;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+.UserInfoTextRow {
+  display: flex;
+  align-items: center;
+}
+
+.UserInfoTextForProvince,
+.UserInfoTextForCity {
+  font-size: 18px;
+  text-align: left;
+  color: black;
+}
+
+#UserInfo .el-input {
+  margin-left: 35px;
+}
+
+#UserInfo .el-input__inner {
+  width: 80%;
+}
+
+#UserInfo .el-select .el-input {
+  margin-left: 0;
+}
+
+#UserInfo .UserInfoTextError {
+  color: rgb(168, 27, 31);
+  font-size: 14px;
+  width: 20%;
+  display: flex;
+}

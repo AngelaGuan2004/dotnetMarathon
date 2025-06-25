@@ -1,0 +1,111 @@
+#EventList {
+  text-align: center;
+  color: #2c3e50;
+  height: 90vh;
+  margin-top: 125px;
+}
+
+.EventFilterItem {
+  flex: 1;
+  min-width: 250px;
+  margin: 0 5%;
+}
+
+#EventList .el-menu-demo {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.el-picker-panel__icon-btn {
+  padding: 2px 10px;
+}
+
+.el-picker-panel__icon-btn:hover {
+  background-color: transparent;
+}
+
+.EventFilterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.EventInfoTable {
+  width: 75%;
+  margin: 0 auto;
+  table-layout: fixed;
+  border: none;
+}
+
+.EventInfoTable th .cell,
+.EventInfoTable td .cell {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  /* Adjust the height as needed */
+  border: none;
+  vertical-align: middle;
+  /* 垂直居中 */
+  line-height: 30px;
+  /* 确保行高与单元格高度一致 */
+}
+
+#EventList .el-table__header-wrapper,
+#EventList .el-table__body-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#EventList .el-table__header-wrapper {
+  font-size: 16px;
+}
+
+#EventList .el-date-picker__header {
+  margin: 12px 0 6px;
+}
+
+#EventList .el-date-picker__header span {
+  line-height: 45px;
+}
+
+.EventEmpty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  height: 50vh;
+  color: #999;
+  width: 100%;
+  text-align: center;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#EventList .clickable-row {
+  cursor: pointer !important;
+}
+
+.clickable-row:hover {
+  background-color: #f5f5f5;
+}
+
+.EventTableDetail {
+  font-weight: bold;
+  color: rgb(64, 158, 255);
+  cursor: pointer;
+}
+
+.disabled-btn {
+  cursor: not-allowed !important;
+  opacity: 0.4;
+  /* 使禁用按钮看起来更明显 */
+}

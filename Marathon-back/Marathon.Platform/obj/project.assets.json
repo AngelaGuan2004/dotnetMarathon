@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Marathon.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Marathon.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marathon.DTO.dll": {}
+        }
+      },
+      "Marathon.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Marathon.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marathon.Models.dll": {}
+        }
+      },
+      "Marathon.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Marathon.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Marathon.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marathon.Repository.dll": {}
+        }
+      },
+      "Marathon.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Marathon.DTO": "1.0.0",
+          "Marathon.Models": "1.0.0",
+          "Marathon.Repository": "1.0.0",
+          "Marathon.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Marathon.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marathon.Service.dll": {}
+        }
+      },
+      "Marathon.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Marathon.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marathon.Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Marathon.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Marathon.DTO/Marathon.DTO.csproj",
+      "msbuildProject": "../Marathon.DTO/Marathon.DTO.csproj"
+    },
+    "Marathon.Models/1.0.0": {
+      "type": "project",
+      "path": "../Marathon.Models/Marathon.Models.csproj",
+      "msbuildProject": "../Marathon.Models/Marathon.Models.csproj"
+    },
+    "Marathon.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Marathon.Repository/Marathon.Repository.csproj",
+      "msbuildProject": "../Marathon.Repository/Marathon.Repository.csproj"
+    },
+    "Marathon.Service/1.0.0": {
+      "type": "project",
+      "path": "../Marathon.Service/Marathon.Service.csproj",
+      "msbuildProject": "../Marathon.Service/Marathon.Service.csproj"
+    },
+    "Marathon.Utils/1.0.0": {
+      "type": "project",
+      "path": "../Marathon.Utils/Marathon.Utils.csproj",
+      "msbuildProject": "../Marathon.Utils/Marathon.Utils.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Marathon.DTO >= 1.0.0",
+      "Marathon.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Angela\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\小yy\\专业课\\Dotnet体系结构\\dotnetMarathon\\Marathon-back\\Marathon.Platform\\Marathon.Platform.csproj",
+      "projectName": "Marathon.Platform",
+      "projectPath": "D:\\小yy\\专业课\\Dotnet体系结构\\dotnetMarathon\\Marathon-back\\Marathon.Platform\\Marathon.Platform.csproj",
+      "packagesPath": "C:\\Users\\Angela\\.nuget\\packages\\",
+      "outputPath": "D:\\小yy\\专业课\\Dotnet体系结构\\dotnetMarathon\\Marathon-back\\Marathon.Platform\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Angela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\小yy\\专业课\\Dotnet体系结构\\dotnetMarathon\\Marathon-back\\Marathon.DTO\\Marathon.DTO.csproj": {
+              "projectPath": "D:\\小yy\\专业课\\Dotnet体系结构\\dotnetMarathon\\Marathon-back\\Marathon.DTO\\Marathon.DTO.csproj"
+            },
+            "D:\\小yy\\专业课\\Dotnet体系结构\\dotnetMarathon\\Marathon-back\\Marathon.Service\\Marathon.Service.csproj": {
+              "projectPath": "D:\\小yy\\专业课\\Dotnet体系结构\\dotnetMarathon\\Marathon-back\\Marathon.Service\\Marathon.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

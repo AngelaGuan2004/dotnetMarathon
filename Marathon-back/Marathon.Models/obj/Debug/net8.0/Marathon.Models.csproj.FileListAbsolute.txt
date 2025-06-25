@@ -1,0 +1,11 @@
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\bin\Debug\net8.0\Marathon.Models.deps.json
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\bin\Debug\net8.0\Marathon.Models.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\bin\Debug\net8.0\Marathon.Models.pdb
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.AssemblyInfoInputs.cache
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.AssemblyInfo.cs
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.csproj.CoreCompileInputs.cache
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\refint\Marathon.Models.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.pdb
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\ref\Marathon.Models.dll

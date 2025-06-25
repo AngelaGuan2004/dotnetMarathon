@@ -1,0 +1,43 @@
+#Footer {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(38, 38, 38);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.FooterText {
+  display: flex;
+  margin-left: 150px;
+  font-size: 18px;
+  color: white;
+  line-height: 40px;
+}
+
+.FooterImg {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.FooterImg img {
+  background-color: white;
+  border-radius: 60px;
+  width: 120px;
+  height: 100%;
+}
+
+.FooterImg p {
+  font-size: 16px;
+  color: white;
+  line-height: 20px;
+  text-align: center;
+}
+
+.FooterImg div {
+  margin: 0 50px;
+}

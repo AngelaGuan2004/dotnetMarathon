@@ -1,0 +1,268 @@
+#Home {
+  margin-top: 100px;
+}
+
+#Home .el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 200px;
+  margin: 0;
+}
+
+#Home.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+#Home.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}
+
+.Carousel {
+  text-align: center;
+}
+
+.CarouselPictures {
+  height: 100%;
+  width: 100%;
+}
+
+.CarouselTextOutside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 55%, rgba(38, 38, 38, .8));
+}
+
+.CarouselText {
+  padding-bottom: 40px;
+  padding-left: 18%;
+  padding-right: 18%;
+  font-size: 40px;
+  min-height: 104px;
+}
+
+.RecentlyStarted {
+  padding: 60px 150px;
+}
+
+.RecentlyStartedHeader {
+  height: 150px;
+}
+
+.RecentlyStartedTitle {
+  float: left;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.RecentlyStartedMore {
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+  padding-top: 15px;
+}
+
+.RecentlyStartedBody {
+  position: relative;
+  padding-left: 30%;
+}
+
+.RecentlyStartedTitleLine {
+  height: 10px;
+  width: 25%;
+  border-bottom: 5px solid rgb(168, 27, 31);
+}
+
+#Home .el-timeline-item__content {
+  padding-left: 5%;
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#Home .el-timeline-item__node--normal {
+  width: 15px;
+  height: 15px;
+  left: -4px;
+  background-color: white !important;
+  border: 1px solid rgb(168, 27, 31);
+}
+
+.RecentlyStartedTimestamp {
+  position: absolute;
+  display: inline-block;
+  left: -150px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#Home .el-timeline-item {
+  position: relative;
+}
+
+#Home .el-timeline-item:hover {
+  height: 100px;
+  width: 750px;
+  line-height: 80px;
+  background-color: rgb(246, 232, 232);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#Home .el-timeline-item:hover .RecentlyStartedTimestamp {
+  margin-top: 18px;
+}
+
+#Home .el-timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -35%;
+  /* 与 .RecentlyStartedTimestamp 的 left 对应 */
+  width: calc(100% + 150px);
+  height: 100%;
+  background-color: transparent;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+#Home .el-timeline-item:hover::before {
+  background-color: rgb(246, 232, 232) !important;
+}
+
+#Home .el-timeline-item:hover>.el-timeline-item__node--normal {
+  margin: 48px 0;
+  background-color: rgb(168, 27, 31) !important;
+}
+
+#Home .el-timeline-item:hover>.el-timeline-item__wrapper>.el-timeline-item__content {
+  color: rgb(168, 27, 31);
+}
+
+#Home .el-timeline-item__tail {
+  border-left: 1px solid rgb(168, 27, 31) !important;
+  height: 120%;
+}
+
+.ShowBest {
+  background-color: rgb(255, 251, 251);
+  padding-top: 75px;
+  margin-bottom: 75px;
+}
+
+.Record {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 125px;
+}
+
+.RecordTitle {
+  display: flex;
+  height: 200px;
+  background-color: rgb(195, 97, 100);
+  border-radius: 0 25px 25px 0;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  writing-mode: tb-rl;
+  text-align: center;
+  padding: 75px 15px;
+  flex-direction: column;
+  justify-content: center;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+}
+
+.BestScoreTitle {
+  height: 260px;
+  padding: 40px 15px;
+}
+
+.RecordPeople {
+  margin-left: 35px;
+  flex: 1 0 auto;
+  width: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.RecordMan {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.RecordWoMan {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.RecordMan img,
+.RecordWoMan img {
+  display: block;
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 10px;
+}
+
+.RecordManTitle {
+  background-color: white;
+  width: 325px;
+  padding: 26px 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.RecordManTitleLine {
+  height: 10px;
+  width: 10%;
+  border-bottom: 3px solid black;
+}
+
+.RecordManScore {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(209, 52, 53);
+  padding: 5px 10px;
+  border-radius: 0 10px 0 10px;
+}
+
+.BestScore {
+  margin-top: 50px;
+}
+
+#Home .el-timeline-item:hover .extra-info {
+  display: block;
+  color: rgb(168, 27, 31);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.extra-info {
+  display: none;
+  /* 额外的样式可以根据你的需求添加 */
+}

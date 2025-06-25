@@ -1,0 +1,78 @@
+#InjuryEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  margin-right: 3%;
+  width: 105vh;
+  height: 73vh;
+  margin-bottom: 75px;
+  font-size: 15px;
+  padding-top: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#InjuryEntry button {
+  background-color: #c81623;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.injury-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 97%;
+}
+
+#InjuryEntry .table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#InjuryEntry .el-button {
+  font-size: 16px;
+  background-color: #c63939;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: white;
+  border: none !important;
+  /* 去掉按钮边框 */
+}
+
+#InjuryEntry .table-container .el-button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  border: none !important;
+  /* 去掉按钮边框 */
+}
+
+#InjuryEntry .el-table {
+  width: 100%;
+  max-width: 800px;
+}
+
+#InjuryEntry .el-form-item__label {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+#InjuryEntry .el-dialog__headerbtn {
+  background-color: transparent;
+}
+
+#InjuryEntry .el-form-item__content {
+  width: 60%;
+  margin-bottom: 25px;
+}
+
+.InjuryEntryDialog .el-form-item {
+  margin-bottom: 0;
+}

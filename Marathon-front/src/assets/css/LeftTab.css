@@ -1,0 +1,51 @@
+.TabFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.TabRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+  height: 90%;
+}
+
+.Tab {
+  width: 225px;
+  margin-bottom: 75px;
+}
+
+[id$="Tab"] .el-menu-item,
+[id$="Tab"] .el-submenu__title {
+  font-size: 20px;
+  font-weight: bold;
+  height: 80px;
+  line-height: 80px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+[id$="Tab"] .el-submenu>.el-menu>.el-menu-item {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 10px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+[id$="Tab"] .el-submenu>.el-submenu__title {
+  height: 70px;
+  line-height: 70px;
+}
+
+[id$="Tab"] .el-menu-vertical-demo>.is-active,
+[id$="Tab"] .el-menu>.is-active,
+[id$="Tab"] .el-menu-item:hover,
+[id$="Tab"] .el-submenu__title:hover {
+  background-color: rgb(255, 242, 242);
+}

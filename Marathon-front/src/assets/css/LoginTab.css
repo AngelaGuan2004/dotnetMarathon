@@ -1,0 +1,155 @@
+#LoginTab {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.LoginLeft {
+  position: relative;
+}
+
+.LoginLeft img {
+  display: block;
+  height: 100vh;
+  min-height: 513px;
+}
+
+.LoginRight {
+  height: 100vh;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.LoginRightTab {
+  padding: 40px;
+}
+
+.LoginRightTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+#LoginTab .el-menu.el-menu--horizontal {
+  border-bottom: 0;
+  border-bottom-color: transparent;
+}
+
+#LoginTab .el-menu-item {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#LoginTab .el-menu--horizontal>.el-menu-item {
+  margin: 0 25px;
+}
+
+#LoginTab .el-menu--horizontal>.el-menu-item.is-active {
+  border-bottom-color: rgb(219, 57, 56);
+  border-bottom-width: 5px;
+}
+
+#LoginTab .el-input__inner {
+  font-size: 16px;
+}
+
+.LoginRightIndex {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginRightIndexRouter {
+  position: relative;
+  width: 600px;
+  height: 720px;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginRightIndexForm {
+  width: 70%;
+  z-index: 1;
+  padding: 48px;
+}
+
+.LoginRightIndexFormTitle {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  min-width: 410px;
+  color: #2f2f2f;
+}
+
+.LoginRightIndexFormInput {
+  margin-top: 25px;
+}
+
+.LoginRightIndexFormButton {
+  width: 35%;
+  color: #fff;
+  background-color: #d93025;
+  border: 0;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  transition: .1s;
+  font-weight: 500;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.LoginRightIndexBackground {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.LoginRightIndexBackground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/ChineseAthletics.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.LoginRightIndexRegister {
+  display: inline-block;
+  height: 100%;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(174, 174, 174);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#LoginTab .el-input__inner::placeholder {
+  color: rgb(104, 104, 104);
+}

@@ -1,0 +1,46 @@
+#EventRegistration {
+  margin-top: 125px;
+}
+
+.RegistrationContainer {
+  max-width: 600px;
+  margin: 35px auto 50px;
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#EventRegistration .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 10px;
+}
+
+#EventRegistration .el-color-picker__icon,
+#EventRegistration .el-input,
+#EventRegistration .el-textarea {
+  width: 85%;
+  margin-left: 20px;
+}
+
+#EventRegistration .el-form-item__label {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+#EventRegistration .el-form-item__content span {
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+button {
+  background-color: rgb(201, 64, 64);
+  font-weight: bold;
+}
+
+#EventRegistration .el-form-item__error {
+  left: 20px;
+}

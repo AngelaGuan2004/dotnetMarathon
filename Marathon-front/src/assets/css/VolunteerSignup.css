@@ -1,0 +1,92 @@
+#VolunteerSignup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 13%;
+  background-color: white;
+  margin-top: 80px;
+  width: 60%;
+  font-size: 15px;
+}
+
+#VolunteerSignup .el-dialog__body {
+  padding: 10px 20px;
+}
+
+.RegistrationContainerWrapper {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+.VolunteerSignupLogo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 225px;
+  height: auto;
+}
+
+#VolunteerSignup .RegistrationContainer {
+  max-width: 65%;
+  margin: 35px auto;
+  padding: 30px 70px;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.RegistrationInformation {
+  text-align: left;
+  font-size: 20px;
+  color: black;
+}
+
+.RegistrationInformation b {
+  display: inline-block;
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+#VolunteerSignup .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12%;
+}
+
+#VolunteerSignup .el-button {
+  font-size: 18px !important;
+  background-color: #c63939;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: white;
+  border: none !important;
+  margin: 0 17px;
+  /* 去掉按钮边框 */
+}
+
+#VolunteerSignup .el-button--primary {
+  background-color: #c63939 !important;
+}
+
+#VolunteerSignup .el-button--success {
+  background-color: #c63939 !important;
+}
+
+#VolunteerSignup .el-button:hover {
+  background-color: #a62828 !important;
+  /* 悬停时的深红色背景 */
+}
+
+#VolunteerSignup .el-form-item {
+  width: 120%;
+  margin-left: 0px;
+}
+
+#VolunteerSignup .el-input {
+  margin-left: -35px;
+  width: 75%;
+}

@@ -1,0 +1,103 @@
+#ParticipantLottery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 105vh;
+  height: 65vh;
+  margin-right: 50px;
+  margin-bottom: 75px;
+  font-size: 15px;
+}
+
+#ParticipantLottery .el-button {
+  background-color: #c63939;
+  /*important是为了覆盖原有的Element UI 的按钮组件有默认的样式优先级*/
+  color: white;
+  border: none !important;
+  /* 去掉按钮边框 */
+}
+
+#ParticipantLottery .el-button:hover {
+  background-color: #a62828 !important;
+  /* 悬停时的深红色背景 */
+}
+
+.ParticipantLotteryContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+.ParticipantLotteryInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  width: 65%;
+}
+
+.InputTotalParticipants {
+  flex-grow: 1;
+  margin-right: 50px;
+}
+
+.right-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.custom-button {
+  margin-right: auto;
+}
+
+
+.ParticipantLotteryTable {
+  width: 100%;
+  table-layout: fixed;
+  border: none;
+}
+
+.ParticipantLotteryTable th .cell,
+.ParticipantLotteryTable td .cell {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  border: none;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.el-table__header-wrapper,
+.el-table__body-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.ParticipantLotteryTableEmpty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #999;
+  width: 100%;
+  text-align: center;
+}
+
+.el-table__header-wrapper {
+  font-size: 16px;
+}

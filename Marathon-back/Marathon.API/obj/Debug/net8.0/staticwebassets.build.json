@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8DJKS/lFsi6iwgwu5kF74juCRl1/lj33zcKKgP2Egp8=",
+  "Source": "Marathon.API",
+  "BasePath": "_content/Marathon.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

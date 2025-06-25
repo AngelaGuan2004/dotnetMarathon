@@ -1,0 +1,93 @@
+#UserTable .el-main {
+  padding: 10px 20px;
+}
+
+#UserTable .el-menu-demo {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+
+}
+
+.input-with-select {
+  width: 300px;
+}
+
+#UserTable .el-table {
+  font-size: 18px;
+  width: 100%;
+  table-layout: fixed;
+  border: none;
+  /* 移除表格的边框 */
+}
+
+#UserTable .el-table th .cell,
+#UserTable .el-table td .cell {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 43px;
+  border: none;
+  /* 移除单元格的边框 */
+}
+
+#UserTable .el-table__header-wrapper,
+#UserTable .el-table__body-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.clickable-row:hover {
+  background-color: #f5f5f5;
+}
+
+.clickable-row {
+  cursor: auto !important;
+}
+
+#UserTable .table .clickable-row {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.NotTable {
+  display: table;
+  height: 500px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  color: rgb(171, 172, 174);
+}
+
+.NotTable strong {
+  color: rgb(168, 27, 31);
+  cursor: pointer;
+}
+
+.cell span {
+  cursor: pointer;
+}
+
+#UserTable .el-table__row {
+  cursor: auto;
+}
+
+.el-input__inner::placeholder {
+  color: black;
+}
