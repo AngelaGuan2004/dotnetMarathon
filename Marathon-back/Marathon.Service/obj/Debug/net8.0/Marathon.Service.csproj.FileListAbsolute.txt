@@ -19,3 +19,4 @@ D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Serv
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Service\obj\Debug\net8.0\refint\Marathon.Service.dll
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Service\obj\Debug\net8.0\Marathon.Service.pdb
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Service\obj\Debug\net8.0\ref\Marathon.Service.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Service\obj\Debug\net8.0\Marathon.Service.sourcelink.json

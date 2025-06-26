@@ -9,3 +9,7 @@ D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Mode
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\refint\Marathon.Models.dll
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.pdb
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\ref\Marathon.Models.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\bin\Debug\net8.0\Marathon.Models.runtimeconfig.json
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.csproj.AssemblyReference.cache
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.sourcelink.json
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.Models\obj\Debug\net8.0\Marathon.Models.genruntimeconfig.cache

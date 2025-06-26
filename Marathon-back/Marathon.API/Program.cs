@@ -1,25 +1,33 @@
 using Marathon.Repository;
 using Marathon.Service;
+using Marathon.Models.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Ìí¼Ó¿ØÖÆÆ÷
+// é€šè¿‡DbContexté…ç½®MySQLè¿æ¥
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<MarathonDbContext>(options =>
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+// æ·»åŠ æ§åˆ¶å™¨
 builder.Services.AddControllers();
 
-// Ìí¼Ó Swagger ·şÎñ
-builder.Services.AddEndpointsApiExplorer();       // Éú³É API ËµÃ÷
-builder.Services.AddSwaggerGen();                // Éú³É Swagger UI Ò³Ãæ
+// é…ç½® Swagger
+builder.Services.AddEndpointsApiExplorer();       // é…ç½® API è¯´æ˜
+builder.Services.AddSwaggerGen();                // é…ç½® Swagger UI é¡µé¢
 
-// ÒÀÀµ×¢Èë
+// æ³¨å†Œä¾èµ–
 builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
 builder.Services.AddScoped<IPlayerService, PlayerService>();
 
 var app = builder.Build();
 
-app.UseSwagger();                             // ÆôÓÃ Swagger ÖĞ¼ä¼ş
-app.UseSwaggerUI();                           // ÆôÓÃ Swagger Ò³Ãæ
+app.UseSwagger();                             // å¯ç”¨ Swagger ä¸­é—´ä»¶
+app.UseSwaggerUI();                           // å¯ç”¨ Swagger é¡µé¢
 app.UseHttpsRedirection();
 
-// Ó³Éä¿ØÖÆÆ÷
+// æ˜ å°„æ§åˆ¶å™¨
 app.MapControllers();
 app.Run();

@@ -1,9 +1,8 @@
 ﻿using Marathon.DTO;
-using Marathon.Models;
+using Marathon.Models.Models;
 using Marathon.Repository;
 using System.Collections.Generic;
 using System.Linq;
-
 
 namespace Marathon.Service
 {
@@ -22,8 +21,7 @@ namespace Marathon.Service
             {
                 Id = p.Id,
                 Name = p.Name,
-                Age = p.Age,
-                Team = p.Team
+                Age = p.Age
             });
         }
 
@@ -35,8 +33,7 @@ namespace Marathon.Service
             {
                 Id = p.Id,
                 Name = p.Name,
-                Age = p.Age,
-                Team = p.Team
+                Age = p.Age
             };
         }
 
@@ -46,8 +43,7 @@ namespace Marathon.Service
             {
                 Id = playerDto.Id,
                 Name = playerDto.Name,
-                Age = playerDto.Age,
-                Team = playerDto.Team
+                Age = playerDto.Age
             };
             _playerRepository.Add(player);
         }

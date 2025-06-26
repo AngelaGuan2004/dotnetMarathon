@@ -9,3 +9,4 @@ D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.DTO\
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.DTO\obj\Debug\net8.0\refint\Marathon.DTO.dll
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.DTO\obj\Debug\net8.0\Marathon.DTO.pdb
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.DTO\obj\Debug\net8.0\ref\Marathon.DTO.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.DTO\obj\Debug\net8.0\Marathon.DTO.sourcelink.json

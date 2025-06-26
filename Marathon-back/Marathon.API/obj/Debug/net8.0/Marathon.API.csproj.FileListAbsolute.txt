@@ -41,3 +41,9 @@ D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\obj\Debug\net8.0\Marathon.API.sourcelink.json
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\MySqlConnector.dll
+D:\小yy\专业课\Dotnet体系结构\dotnetMarathon\Marathon-back\Marathon.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

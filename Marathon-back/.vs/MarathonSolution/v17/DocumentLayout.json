@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|solutionrelative:marathon.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|solutionrelative:marathon.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E15222DD-D572-4307-812F-A38E31A47942}|Marathon.Models\\Marathon.Models.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.models\\data\\marathondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15222DD-D572-4307-812F-A38E31A47942}|Marathon.Models\\Marathon.Models.csproj|solutionrelative:marathon.models\\data\\marathondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.api\\marathon.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|solutionrelative:marathon.api\\marathon.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.api\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|solutionrelative:marathon.api\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|solutionrelative:marathon.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE3C84C9-2BD1-46AF-8F9E-0752B7D936CA}|Marathon.Repository\\Marathon.Repository.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.repository\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE3C84C9-2BD1-46AF-8F9E-0752B7D936CA}|Marathon.Repository\\Marathon.Repository.csproj|solutionrelative:marathon.repository\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE3C84C9-2BD1-46AF-8F9E-0752B7D936CA}|Marathon.Repository\\Marathon.Repository.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE3C84C9-2BD1-46AF-8F9E-0752B7D936CA}|Marathon.Repository\\Marathon.Repository.csproj|solutionrelative:marathon.repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C4B28B7-A55D-4113-8B02-FFB39E62B05B}|Marathon.Service\\Marathon.Service.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.service\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +31,12 @@
       "RelativeMoniker": "D:0:0:{5C4B28B7-A55D-4113-8B02-FFB39E62B05B}|Marathon.Service\\Marathon.Service.csproj|solutionrelative:marathon.service\\iplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE3C84C9-2BD1-46AF-8F9E-0752B7D936CA}|Marathon.Repository\\Marathon.Repository.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE3C84C9-2BD1-46AF-8F9E-0752B7D936CA}|Marathon.Repository\\Marathon.Repository.csproj|solutionrelative:marathon.repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.api\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3901E415-0565-491C-A021-6F8F016420F6}|Marathon.API\\Marathon.API.csproj|solutionrelative:marathon.api\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A11DF1A-B6AD-495C-BE5E-B5CC477F6285}|Marathon.DTO\\Marathon.DTO.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A11DF1A-B6AD-495C-BE5E-B5CC477F6285}|Marathon.DTO\\Marathon.DTO.csproj|solutionrelative:marathon.dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E15222DD-D572-4307-812F-A38E31A47942}|Marathon.Models\\Marathon.Models.csproj|d:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetmarathon\\marathon-back\\marathon.models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15222DD-D572-4307-812F-A38E31A47942}|Marathon.Models\\Marathon.Models.csproj|solutionrelative:marathon.models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,27 +51,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Marathon.API",
-              "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\Marathon.API.csproj",
-              "RelativeDocumentMoniker": "Marathon.API\\Marathon.API.csproj",
-              "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\Marathon.API.csproj",
-              "RelativeToolTip": "Marathon.API\\Marathon.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-25T12:02:35.874Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Marathon.API\\appsettings.json",
+              "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\appsettings.json",
+              "RelativeToolTip": "Marathon.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-26T02:34:37.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Marathon.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Marathon.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-25T12:06:28.237Z",
+              "Title": "MarathonDbContext.cs",
+              "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Models\\Data\\MarathonDbContext.cs",
+              "RelativeDocumentMoniker": "Marathon.Models\\Data\\MarathonDbContext.cs",
+              "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Models\\Data\\MarathonDbContext.cs",
+              "RelativeToolTip": "Marathon.Models\\Data\\MarathonDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:25:56.312Z",
               "EditorCaption": ""
             },
             {
@@ -86,14 +82,14 @@
               "RelativeDocumentMoniker": "Marathon.API\\Program.cs",
               "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\Program.cs",
               "RelativeToolTip": "Marathon.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T12:00:23.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.API\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "Marathon.API\\Controllers\\PlayerController.cs",
@@ -101,8 +97,7 @@
               "RelativeToolTip": "Marathon.API\\Controllers\\PlayerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T11:59:34.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T11:59:34.477Z"
             },
             {
               "$type": "Document",
@@ -112,7 +107,7 @@
               "RelativeDocumentMoniker": "Marathon.Service\\PlayerService.cs",
               "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Service\\PlayerService.cs",
               "RelativeToolTip": "Marathon.Service\\PlayerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T11:35:58.884Z",
               "EditorCaption": ""
@@ -125,33 +120,33 @@
               "RelativeDocumentMoniker": "Marathon.Service\\IPlayerService.cs",
               "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Service\\IPlayerService.cs",
               "RelativeToolTip": "Marathon.Service\\IPlayerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T11:35:29.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PlayerRepository.cs",
               "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Repository\\PlayerRepository.cs",
               "RelativeDocumentMoniker": "Marathon.Repository\\PlayerRepository.cs",
               "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Repository\\PlayerRepository.cs",
               "RelativeToolTip": "Marathon.Repository\\PlayerRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvwoAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T11:34:40.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "IPlayerRepository.cs",
               "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Repository\\IPlayerRepository.cs",
               "RelativeDocumentMoniker": "Marathon.Repository\\IPlayerRepository.cs",
               "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Repository\\IPlayerRepository.cs",
               "RelativeToolTip": "Marathon.Repository\\IPlayerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T11:34:08.62Z",
               "EditorCaption": ""
@@ -166,21 +161,7 @@
               "RelativeToolTip": "Marathon.DTO\\PlayerDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T11:33:33.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Models\\Player.cs",
-              "RelativeDocumentMoniker": "Marathon.Models\\Player.cs",
-              "ToolTip": "D:\\\u5C0Fyy\\\u4E13\u4E1A\u8BFE\\Dotnet\u4F53\u7CFB\u7ED3\u6784\\dotnetMarathon\\Marathon-back\\Marathon.Models\\Player.cs",
-              "RelativeToolTip": "Marathon.Models\\Player.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvw8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T11:32:44.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T11:33:33.615Z"
             }
           ]
         }
