@@ -3,6 +3,7 @@ bin/
 obj/
 [Ll]og/
 *.log
+*.exe
 
 # User-specific files
 *.suo
