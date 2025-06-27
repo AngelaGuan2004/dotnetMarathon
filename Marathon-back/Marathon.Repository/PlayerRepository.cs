@@ -25,5 +25,18 @@ namespace Marathon.Repository
             _context.Players.Add(player);
             _context.SaveChanges();
         }
+
+        public Player GetByIdNumber(string idNumber)
+        {
+            return _context.Players.FirstOrDefault(p => p.IdNumber == idNumber);
+        }
+
+        public Player GetByCredentials(string idNumber, string name, string password)
+        {
+            return _context.Players.FirstOrDefault(p =>
+                p.IdNumber == idNumber &&
+                p.Name == name &&
+                p.Password == password);
+        }
     }
 }

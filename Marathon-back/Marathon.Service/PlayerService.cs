@@ -3,6 +3,7 @@ using Marathon.Models.Models;
 using Marathon.Repository;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace Marathon.Service
 {
@@ -15,13 +16,25 @@ namespace Marathon.Service
             _playerRepository = playerRepository;
         }
 
+
+        public int? Login(PlayerDTO dto)
+        {
+            var player = _playerRepository.GetByIdNumber(dto.IdNumber);
+            if (player == null) return -1;
+
+            if (player.Name != dto.Name || player.Password != dto.Password) return null;
+
+            return player.Id;
+        }
+
         public IEnumerable<PlayerDTO> GetAllPlayers()
         {
             return _playerRepository.GetAll().Select(p => new PlayerDTO
             {
-                Id = p.Id,
                 Name = p.Name,
-                Age = p.Age
+                IdNumber = p.IdNumber,
+                Password = p.Password,
+                Region = p.Region
             });
         }
 
@@ -31,9 +44,10 @@ namespace Marathon.Service
             if (p == null) return null;
             return new PlayerDTO
             {
-                Id = p.Id,
                 Name = p.Name,
-                Age = p.Age
+                IdNumber = p.IdNumber,
+                Password = p.Password,
+                Region = p.Region
             };
         }
 
@@ -41,9 +55,10 @@ namespace Marathon.Service
         {
             var player = new Player
             {
-                Id = playerDto.Id,
                 Name = playerDto.Name,
-                Age = playerDto.Age
+                IdNumber = playerDto.IdNumber,
+                Password = playerDto.Password,
+                Region = playerDto.Region
             };
             _playerRepository.Add(player);
         }

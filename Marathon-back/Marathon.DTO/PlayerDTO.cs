@@ -8,8 +8,9 @@ namespace Marathon.DTO
 {
     public class PlayerDTO
     {
-        public int Id { get; set; }
         public string Name { get; set; }
-        public int? Age { get; set; }
+        public string IdNumber { get; set; }
+        public string? Password { get; set; }
+        public string? Region { get; set; }
     }
 }

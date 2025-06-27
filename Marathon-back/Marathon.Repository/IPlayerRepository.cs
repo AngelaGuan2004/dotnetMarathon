@@ -12,6 +12,7 @@ namespace Marathon.Repository
         IEnumerable<Player> GetAll();
         Player GetById(int id);
         void Add(Player player);
-        // 其他CRUD方法
+        Player GetByIdNumber(string idNumber);
+        Player GetByCredentials(string idNumber, string name, string password);
     }
 }

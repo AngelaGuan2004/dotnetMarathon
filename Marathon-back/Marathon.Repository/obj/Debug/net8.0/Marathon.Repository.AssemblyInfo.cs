@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Marathon.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd99b3f0448360be4999396afc05bc7dc41997fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33f2ee07235215e475195be03f827caf2dcabb99")]
 [assembly: System.Reflection.AssemblyProductAttribute("Marathon.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Marathon.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
