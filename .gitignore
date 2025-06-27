@@ -1,0 +1,79 @@
+# Build output
+bin/
+obj/
+[Ll]og/
+*.log
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.bak
+*.Backup
+*.cache
+*.pidb
+*.sdf
+*.pdb
+*.opendb
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Include if using Entity Framework
+*.ndf
+*.mdf
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# JetBrains Rider
+.idea/
+
+# File-based project configuration
+*.csproj.user
+
+# dotenv environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Other
+*.orig
+*.swo
+
+# MacOS / Linux
+.DS_Store
+Thumbs.db
